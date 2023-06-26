@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.sign-active{
+    margin-top: 150px;
+    color: rgb(68, 95, 27);
+    text-align: center;
+
+}
+
+ul li.passive a{
+    background-color: green;
+    color: wheat;
+}
+
+.passive{
+    margin-top: 36px;
+}

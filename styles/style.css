@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/Dinner.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 27px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: greenyellow;
+    padding: 7px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover{
+    background-color: green;
+    color: black;
+}
+ul li.active a{
+    background-color: green;
+    color: wheat;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: rgb(168, 253, 183);
+    font-size: 80px;
+    text-align: center;
+}
+.button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    text-decoration: none;
+    color: greenyellow;
+    padding: 5px 20px;
+    border: 1px solid goldenrod;
+    transition: 0.6s ease;
+    align-items: center;
+}
+.btn:hover{
+    background-color: palegoldenrod;
+    color: black;
+}
+
+.menu-icon{
+    display: inline-block;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: relative;
+  
+}
+.menu-icon{
+    float: left;
+    margin-left: 29px;
+    margin-top: 30px;
+}
+
+.menu-icon-line {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: greenyellow;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -2px;
+}
+
+.menu-icon-line:nth-of-type(1) {
+  transform: translateY(-6px);
+}
+
+.menu-icon-line:nth-of-type(2) {
+  transform: translateY(0);
+}
+
+.menu-icon-line:nth-of-type(3) {
+  transform: translateY(6px);
+}
+
